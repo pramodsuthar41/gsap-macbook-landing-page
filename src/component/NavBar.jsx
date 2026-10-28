@@ -7,8 +7,8 @@ function NavBar() {
                 <img src="/logo.svg" alt="logo"/>
                 <ul>
                     {navLinks.map(({label}) => (
-                        <li key={label}>
-                            <a href={label}>{label}</a>
+                        <li ke      y={label}>
+                            <a href={label}>{label} </a>
                         </li>
                     ))}
                 </ul>
@@ -27,4 +27,4 @@ function NavBar() {
     )
 }
 
-export default NavBar
+export default NavBar;

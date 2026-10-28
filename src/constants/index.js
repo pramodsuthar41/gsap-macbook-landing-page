@@ -1,4 +1,4 @@
-export const navLinks = [
+export const navLinks =
     [
         {label:'Store'},
         {label:'Mac'},
@@ -6,5 +6,4 @@ export const navLinks = [
         {label:'Watch'},
         {label:'Vision'},
         {label:'AirPods'},
-    ]
-]
+    ];

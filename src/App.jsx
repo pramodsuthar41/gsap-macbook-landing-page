@@ -1,8 +1,14 @@
 import NavBar from "./component/NavBar.jsx";
+import Hero from "./component/Hero.jsx";
 
 function App(){
     return (
-        <NavBar/>
+        <main>
+
+            <NavBar/>
+            <Hero/>
+        </main>
+
     )
 }
 
